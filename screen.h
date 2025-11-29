@@ -1,6 +1,6 @@
 #include <stdint.h>
 // Copyright(c) 2025 DiabloBlanco
-// MiniState project, V3R
+// Vvix(WIX) project, V2R
 #ifndef SCREEN_H
 #define SCREEN_H
 void clears();

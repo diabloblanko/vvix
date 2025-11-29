@@ -2,7 +2,7 @@
 
 CLEANOFILES="YES"
 CC="clang"
-echo "Building MiniState V3."
+echo "Building Vvix(Wix) V3."
 mkdir ofiles
 echo "Compiling C code($CC).."
 $CC -m32 -c screen.c  -o ofiles/screen.o -ffreestanding -nostdlib
@@ -13,10 +13,10 @@ nasm -f elf32 entry.asm -o ofiles/entry.o
 # nasm -f elf32 kernel.asm -o asmkernel.o
 nasm -f elf32 ports.asm -o ofiles/ports.o
 echo "Linking($LD, $LDARG) all the files into $OUT.."
-ld -m elf_i386 -T link.ld -o ministate-v3 ofiles/entry.o ofiles/ports.o ofiles/kernel.o ofiles/screen.o
+ld -m elf_i386 -T link.ld -o vvix-v3 ofiles/entry.o ofiles/ports.o ofiles/kernel.o ofiles/screen.o
 echo "Building finished."
 if [ "$1" == "-run" ]; then
-    qemu-system-i386 -kernel ministate-v3
+    qemu-system-i386 -kernel vvix-v3
 fi
 if [ "$CLEANOFILES" == "YES" ]; then
     rm ofiles/*

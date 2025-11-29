@@ -1,8 +1,9 @@
-# MiniState V3, the fifth release of the Kernel!
-BSD2-Licensed 32-bit monolithic(?) kernel.
-MiniState is designed as a kernel that can be used to create a cool OS with less efforts.
-Also, MiniState follows KISS.
-Feel free to contribute and suggesting me ideas using the "issues" page(github.com/diabloblanko/ministate/issues)!
+# Vvix(Wix) V3.1, the fifth major and first minor release of the Kernel!
+(formerly called MiniState)<br>
+BSD2-Licensed 32-bit monolithic(?) kernel!<br>
+Vvix is designed as a kernel that can be used to create a cool OS with less efforts.<br>
+Also, MiniState follows KISS.<br>
+Feel free to contribute and suggesting me ideas using the "issues" page(github.com/diabloblanko/ministate/issues)!<br>
 ![ministate-v3](https://i.ibb.co/gb2Zfxk9/basestate.png)
 ## Dependencies
 * clang
@@ -13,12 +14,21 @@ Feel free to contribute and suggesting me ideas using the "issues" page(github.c
 chmod +x build.sh && ./build.sh
 ```
 You can use the -run flag to build and run in QEMU
-## Where is MSH and things you promised to add?
-After some thinking i decided to create MS_OS to demonstrate MSH, sysinfo and other things. 
-By 13.11.2025, MS_OS is still on work. Everything works fine, except the bootloader.
-(currently)Empty MS_OS repo is on github.com/diabloblanko/ms_os
+## Where is MSH and other things you promised to add?
+It will be in other repo, called baseutils(github.com/diabloblanko/baseutils), to not fill main Vvix repo with 
 ## Version history
-V1 -> V1.1 -> V2 -> V2R -> V3
+V1 -> V1.1 -> V2 -> V2R -> V3 -> v3.1
 ## Differences between V2R and V3:
-* Default cc to compile is now clang
+* Default cc to compile is now clang 
 * Some minor changes and fixes
+## Differences between V3 and V3.1
+* Finally, i found a good name for this!!
+* Changed MOTD
+* No more mentions of MiniState 
+## Inspirations
+* Minix3
+* OpenBSD
+* Plan9
+* Suckless(creating simple and small but powerfull)
+* Linux
+* 

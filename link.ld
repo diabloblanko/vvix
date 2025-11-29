@@ -1,5 +1,5 @@
 /* Copyright(c) 2025 DiabloBlanco
-   MiniState project, V3R */
+   Vvix(WIX) project, V2R */
 ENTRY(_start)
 
 SECTIONS
