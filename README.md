@@ -4,7 +4,7 @@ BSD2-Licensed 32-bit monolithic(?) kernel!<br>
 Vvix is designed as a kernel that can be used to create a cool OS with less efforts.<br>
 Also, MiniState follows KISS.<br>
 Feel free to contribute and suggesting me ideas using the "issues" page(github.com/diabloblanko/ministate/issues)!<br>
-![ministate-v3](https://i.ibb.co/gb2Zfxk9/basestate.png)
+![vvix-v3.1](https://i.ibb.co/Y4Td8d6F/vvix-base.png)
 ## Dependencies
 * clang
 * nasm
@@ -31,4 +31,3 @@ V1 -> V1.1 -> V2 -> V2R -> V3 -> v3.1
 * Plan9
 * Suckless(creating simple and small but powerfull)
 * Linux
-* 

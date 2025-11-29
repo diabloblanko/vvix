@@ -11,5 +11,6 @@ void kmain() {
 	putstr("If you see this message, piece of crap named Vvix works :D \n");
 	putstr("If you kinda enjoy this piece of crap and want to create an OS with it, you should visit Vvix baseutils repo("); 
 	setcolor(0x0E);
-	putstr("github.com/diabloblanko/baseutils\n");
-	setcolor(0x07); }
+	putstr("github.com/diabloblanko/baseutils");
+	setcolor(0x07);
+	putstr(")\n");}
