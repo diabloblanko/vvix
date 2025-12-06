@@ -1,3 +1,5 @@
+# Im moving to codeberg.org. New versions of my software will be published to codeberg, not github.
+## <a href="https://codeberg.org/diabloblanco">My account on CodeBerg.</a>
 # Vvix(Wix) V3.1, the fifth major and first minor release of the Kernel!
 (formerly called MiniState)<br>
 BSD2-Licensed 32-bit monolithic(?) kernel!<br>
