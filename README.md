@@ -1,4 +1,5 @@
-# Im moving to codeberg.org. New versions of my software will be published to codeberg, not github.
+# **Im moving to codeberg.org. New versions of my software will be published to codeberg, not github.**
+# *******THIS REPO WILL NO LONGER BE UPDATED!! SEE******* <a href="https://codeberg.org/diabloblanco/vvix">THE NEW REPO</a>
 ## <a href="https://codeberg.org/diabloblanco">My account on CodeBerg.</a>
 # Vvix(Wix) V3.1, the fifth major and first minor release of the Kernel!
 (formerly called MiniState)<br>
